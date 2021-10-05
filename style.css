@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 body {
-  background-color: #64B0A7 ;
+  background-color: white ;
 }
 =======
 .journal {
@@ -10,16 +9,22 @@ body {
 
 
 
-
-.table {
+.left {
     background-color: #64B0A7 ;
     
     
 }
-
-
-.art {
-  background-color: #FFFFFF ;
+.left{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
->>>>>>> 75bd036e704ce41f5dcd82abe8b964711b11ee37
+
+.right {
+  background-color: #FFFFFF ;
+}
