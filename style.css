@@ -1,5 +1,5 @@
 body {
-  background-color: white ;
+  background-color: #b48484 ;
 }
 =======
 .journal {
@@ -16,8 +16,8 @@ body {
 }
 .left{
   height: 100%;
-  width: 50%;
-  position: fixed;
+  width: 15%;
+  position: relative;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
@@ -26,5 +26,14 @@ body {
 
 
 .right {
-  background-color: #FFFFFF ;
+    background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 700px;
+  position: absolute;
+  top: 107px;
+  left: 180px;
+}
+.lil {
+    font-size: 180%;
 }
